@@ -108,3 +108,10 @@
 ## print(str(num) + ' ** 0.5 = '  + str(num ** 0.5))
 ## print(f"{num} ** 0.5 = {num ** 0.5}")
 ## print('{} ** 0.5 = {}'.format(num, num ** 0.5))
+
+## Ejercicio 25
+num1 = 10
+num2 = 3
+print(str(num1) + ' / ' + str(num2) + ' = ' + str(round(num1/num2, 2)))
+print('{} / {} = {}' .format(num1, num2, round(num1/num2, 2)))
+print(f'{num1} / {num2} = {round(num1/num2, 2)}')
