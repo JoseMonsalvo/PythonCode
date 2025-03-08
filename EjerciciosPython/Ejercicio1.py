@@ -104,5 +104,7 @@
 ## print(str(num1) + ' % ' + str(num2) + ' = ' + str(num1 % num2))
 
 ## Ejercicio 24
-num = 753
-print()
+num = 783
+print(str(num) + ' ** 0.5 = '  + str(num ** 0.5))
+print(f"{num} ** 0.5 = {num ** 0.5}")
+print('{} ** 0.5 = {}'.format(num, num ** 0.5))
