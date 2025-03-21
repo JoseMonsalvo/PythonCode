@@ -183,8 +183,43 @@
 ## frutasEliminadas = mi_lista.pop(2)
 ## print(frutasEliminadas)
 
+## Ejercicio 55
+## num1 = 10
+## num2 = 5
+## bool = (num1>=num2)
+## print(bool)
+
 ## Ejercicio 56
-## 
+## num1 = 25**0.5
+## num2 = 5
+## bool = num1 == num2
+## print(bool)
+
+## Ejercicio 57
+## num1 = 64 * 3
+## num2 = 24 * 8
+## bool = (num1 != num2)
+## print(bool)
+
+
+## Ejercicio 58
+
+## num1 = 36
+## num2 = 72/2
+## num3 = 48
+## mi_bool = (num1 > num2) and (num1 < num3)
+## print(mi_bool)
+
+
+## Ejercicio 59
+## num1 = 36
+## num2 = 72/2
+## num3 = 48
+## mi_bool = (num1 > num2) or (num1 < num3)
+## print(mi_bool)
+
+
+## Ejercicio 60
 
 ##############################################################################################################
 
