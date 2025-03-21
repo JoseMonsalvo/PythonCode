@@ -179,5 +179,9 @@
 ## print(mi_lista)
 
 ## Ejercicio 42
-mi_lista = ["manzana", "banana", "mango" , "cereza" , "sandía"]
-frutasEliminadas = mi_lista.pop(1)
+## mi_lista = ["manzana", "banana", "mango" , "cereza" , "sandía"]
+## frutasEliminadas = mi_lista.pop(2)
+## print(frutasEliminadas)
+
+## Ejercicio 43
+## 
