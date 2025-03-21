@@ -251,6 +251,17 @@
 ##     print('No puedes conducir')
 
 
+## Ejercicio 63
+hablaIngles = bool(True)
+sabePython = bool(True)
+if hablaIngles and sabePython:
+    print('Eres un programador de Python que habla inglés')
+elif hablaIngles and not sabePython:
+    print('Eres un programador que habla inglés pero no sabes Python')
+elif not hablaIngles and sabePython:
+    print('Eres un programador de Python que no habla inglés')
+else:
+    print('No eres un programador de Python y no hablas inglés')    
 
 ##############################################################################################################
 
