@@ -220,6 +220,37 @@
 
 
 ## Ejercicio 60
+## palabra1 = "hola"
+## palabra2 = "trasero"
+## frase = "hola, quería decirtelo al oído, pero me da vergüenza, así que te lo digo por aquí: Buen trasero"
+## mi_bool = palabra1 not in frase and palabra2 not in frase
+## print(mi_bool)
+
+
+## Ejercicio 61
+
+## num1 = input("ingresa un número: ")
+## num2 = input("ingresa otro número: ")
+
+## if num1 > num2: 
+    ## print(f"{num1} es mayor que {num2}")
+## elif num2 > num1:
+    ## print(f"{num1} es menor que {num2}")
+## else: 
+    ##print(f"{num1} y {num2} son iguales")
+
+
+
+## Ejercicio 62
+
+edad = int(input('Escribe tu edad:'))
+licencia = input('¿Tienes licencia de conducir? Si/No:')
+if (edad >= 18) and (licencia == 'Si' or licencia == 'si'):
+    print('Puedes conducir')
+else:
+    print('No puedes conducir')
+
+
 
 ##############################################################################################################
 
