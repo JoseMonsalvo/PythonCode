@@ -243,12 +243,12 @@
 
 ## Ejercicio 62
 
-edad = int(input('Escribe tu edad:'))
-licencia = input('¿Tienes licencia de conducir? Si/No:')
-if (edad >= 18) and (licencia == 'Si' or licencia == 'si'):
-    print('Puedes conducir')
-else:
-    print('No puedes conducir')
+## edad = int(input('Escribe tu edad:'))
+## licencia = input('¿Tienes licencia de conducir? Si/No:')
+## if (edad >= 18) and (licencia == 'Si' or licencia == 'si'):
+##    print('Puedes conducir')
+## else:
+##     print('No puedes conducir')
 
 
 
