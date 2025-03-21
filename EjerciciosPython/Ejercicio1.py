@@ -183,5 +183,16 @@
 ## frutasEliminadas = mi_lista.pop(2)
 ## print(frutasEliminadas)
 
-## Ejercicio 43
+## Ejercicio 56
 ## 
+
+##############################################################################################################
+
+## Ejercicio Extra
+#nombre = input('Escribe tu nombre:' )
+#apellido = input('Escribe tu apellido:' )
+## edad = int(input('Escribe tu edad:'))
+## if (edad > 100) or (edad < 0):
+##     print("Has puesto una edad incorrecta")
+## else: 
+##     print("Tu edad es correcta")
