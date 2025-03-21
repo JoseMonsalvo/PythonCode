@@ -110,8 +110,74 @@
 ## print('{} ** 0.5 = {}'.format(num, num ** 0.5))
 
 ## Ejercicio 25
-num1 = 10
-num2 = 3
-print(str(num1) + ' / ' + str(num2) + ' = ' + str(round(num1/num2, 2)))
-print('{} / {} = {}' .format(num1, num2, round(num1/num2, 2)))
-print(f'{num1} / {num2} = {round(num1/num2, 2)}')
+## num1 = 10
+## num2 = 3
+## print(str(num1) + ' / ' + str(num2) + ' = ' + str(round(num1/num2, 2)))
+## print('{} / {} = {}' .format(num1, num2, round(num1/num2, 2)))
+## print(f'{num1} / {num2} = {round(num1/num2, 2)}')
+
+## Ejercicio 26
+## num1 = 10.3333333
+## print(round(num1, 0))
+
+
+## Ejercicio 27
+## num1 = 5
+## print(round(num1**0.5, 4))
+
+## Ejercicio 28
+## palabra = "Ordenador"
+## print(palabra[4])
+
+## Ejercicio 29
+## frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+## print(frase.index('práctica', 0))
+
+## Ejercicio 30
+## frase = "En teoría, la teoría y la práctica son los mismos. En la práctica, no lo son."
+## print(frase.rindex('práctica', 0))
+
+## Ejercicio 31
+## frase = "Controlar la complejidad es la esencia de la programación"
+## print(frase[0:9])
+
+## Ejercicio 32
+## frase = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
+## print(frase[0::3])
+
+## Ejercicio 33
+## frase = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
+## print(frase[::-1])
+
+## Ejercicio 34
+## frase = "Nunca confíes en un ordenador que no puedas lanzar por una ventana"
+## print(frase.upper())
+
+## Ejercicio 35
+## lista_palabras = ['Hola', 'Mundo', 'Python']
+## print(" ".join(lista_palabras))
+
+## Ejercicio 36
+## frase = "Si los cocos malos hablaran, serían los más malhablados del mundo"
+## print(frase.replace('malos', 'buenos').replace('malhablados', 'educados'))
+
+## Ejercicio 37
+## palabraRepetida= "Repetir"
+## print(palabraRepetida*100)
+
+## Ejercicio 38
+## frase = "Tierra mojada, mis recuerdos de viaje entre las lluvias"
+## print("agua" not in frase)
+
+## Ejercicio 39
+## palabra = "electroencefalografista"
+## print(len(palabra))
+
+## Ejercicio 40/41
+## mi_lista = [1, 2, 3, 4, 5, "hola", "mundo", "si", 4.5, 5.5, 6.5]
+## mi_lista.append("motocicletas")
+## print(mi_lista)
+
+## Ejercicio 42
+mi_lista = ["manzana", "banana", "mango" , "cereza" , "sandía"]
+frutasEliminadas = mi_lista.pop(1)
