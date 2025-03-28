@@ -327,6 +327,29 @@
 ## Ejercicio 69
 
 
+## lista_numeros = [1, 2, 3, 4, 0, -1 ,5, 6, 7, 8, 9, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+
+## for numero in lista_numeros:
+##     if numero>= 0 :
+##         print(numero)
+##     else:
+##         break
+## print('Has terminado!')
+
+
+## Ejercicio 70
+
+## mi_lista = range(2000, 3000)
+## print(list(mi_lista))
+
+
+## Ejercicio 71
+## variable = range(0, 300, 3)
+## print(list(variable))
+
+
+
+## Ejercicio 72
 
 
 
