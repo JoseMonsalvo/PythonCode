@@ -312,13 +312,21 @@
 
 
 ## Ejercicio 68
-numero = 50 
-while numero < 0:
-    print(numero)
-    numero = numero - 1
-else:
-    print('Has terminado!')
-    
+
+## numero = 50 
+## while numero > 0:
+##
+##     if numero % 5 == 0:
+##         print(numero)
+##         numero -= 1
+##     else:
+##         
+##         numero -= 1
+## print('Has terminado!')
+
+## Ejercicio 69
+
+
 
 
 
