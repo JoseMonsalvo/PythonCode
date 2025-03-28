@@ -252,16 +252,75 @@
 
 
 ## Ejercicio 63
-hablaIngles = bool(True)
-sabePython = bool(True)
-if hablaIngles and sabePython:
-    print('Eres un programador de Python que habla inglés')
-elif hablaIngles and not sabePython:
-    print('Eres un programador que habla inglés pero no sabes Python')
-elif not hablaIngles and sabePython:
-    print('Eres un programador de Python que no habla inglés')
+## hablaIngles = bool(True)
+## sabePython = bool(True)
+## if hablaIngles and sabePython:
+##     print('Eres un programador de Python que habla inglés')
+## elif hablaIngles and not sabePython:
+##     print('Eres un programador que habla inglés pero no sabes Python')
+## elif not hablaIngles and sabePython:
+##     print('Eres un programador de Python que no habla inglés')
+## else:
+##     print('No eres un programador de Python y no hablas inglés') 
+
+## Ejercicio 64
+## nombres_alumnos = ['Juan', 'Ana', 'Pedro', 'María', 'Luis', 'Sara', 'Pablo', 'Carmen', 'Jorge', 'Lucía']
+## for alumno in nombres_alumnos:
+##     print('Hola ' + alumno)
+
+
+## Ejercicio 65
+## lista_numeros = [2, 5, 1, 7, 4, 8, 3, 6, 9]
+## suma = 0
+
+## for numeros in lista_numeros:
+##     suma = suma + numeros
+
+## print(suma)
+
+
+
+## Ejercicio 66
+## import random
+
+## lista_numeros = [random.randint(1, 99999999) for i in range(1000)]
+
+## suma_pares = 0
+## suma_impares = 0
+
+## for numeros in lista_numeros:
+##     if numeros%2 == 0:
+##         print(f'{numeros} es par')
+##         suma_pares = suma_pares + 1
+##     elif numeros != 0:
+##         print(f'{numeros} es impar')
+##         suma_impares = suma_impares + 1
+
+## print(f' Hay {suma_pares} números pares y {suma_impares} números impares en la lista')
+
+
+## Ejercicio 67
+
+## numero = 10
+
+## while numero > 0:
+##     print(numero)
+##     numero = numero - 1
+## else: 
+##     print('Has terminado!')
+
+
+
+## Ejercicio 68
+numero = 50 
+while numero < 0:
+    print(numero)
+    numero = numero - 1
 else:
-    print('No eres un programador de Python y no hablas inglés')    
+    print('Has terminado!')
+    
+
+
 
 ##############################################################################################################
 
