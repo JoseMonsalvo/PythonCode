@@ -350,6 +350,79 @@
 
 
 ## Ejercicio 72
+## suma=0
+## for i in range(1, 16):
+##     print(i)
+##     suma+= i**2
+## print(suma)
+
+## Ejercicio 73
+
+## lista_nombres = ['Juan', 'Ana', 'Pedro', 'María', 'Luis', 'Sara', 'Pablo', 'Carmen', 'Jorge', 'Lucía']
+## for indice, nombres in enumerate(lista_nombres):
+##     print(f'El nombre {nombres} está en la posición {indice}')
+
+
+
+## Ejercicio 74
+
+## lista = list(enumerate("Hola Mundo"))
+## print(lista)
+
+## Ejercicio 75
+
+## lista_nombres = ['Juan', 'Ana', 'Pedro', 'María', 'Luis', 'Sara', 'Pablo', 'Carmen', 'Jorge', 'Lucía', 'Jose', 'Marta', 'Pablo', 'Carmen', 'Jorge', 'Lucía']
+## for i, nombre in enumerate(lista_nombres):
+##     if nombre[0] == 'M':
+##         print(i)
+
+## Ejercicio 76
+
+## capitales = ('Madrid', 'Paris', 'Londres', 'Roma', 'Berlin')
+## paises = ('España', 'Francia', 'Reino Unido', 'Italia', 'Alemania')
+## for pais, capital in zip(paises, capitales):
+##     print(f'La capital de {pais} es {capital}')
+
+## Ejercicio 77
+
+## marcas = ('BMW', 'Mercedes', 'Audi', 'Volkswagen', 'Ford')
+## modelos = ('Serie 3', 'Clase C', 'A4', 'Golf', 'Focus')
+## for marca, modelo in zip(marcas, modelos):
+##     print(f'La marca {marca} tiene el modelo {modelo}')
+
+## Ejercicio 78
+
+## español = ('uno', 'dos', 'tres', 'cuatro', 'cinco')
+## ingles = ('one', 'two', 'three', 'four', 'five')
+## aleman = ('eins', 'zwei', 'drei', 'vier', 'fünf')
+## portugues = ('um', 'dois', 'três', 'quatro', 'cinco')
+## numeros = list(zip(español, ingles, aleman, portugues))
+## print(numeros)
+
+
+## Ejercicio 79
+
+## lista_numeros = (13131+1983, 13131-1983, 13131*1983, 13131/1983, 13131%1983)
+## print(min(lista_numeros))
+## print(max(lista_numeros))
+
+## Ejercicio 80
+
+## lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+## suma = max(lista_numeros) - min(lista_numeros)
+## print(suma)
+
+## Ejercicio 81
+
+## diccionario_edades = {'Juan': 25, 'Ana': 30, 'Pedro': 35, 'María': 28, 'Luis': 40}
+## edad_minima = min(diccionario_edades.values())
+## ultimo_nombre = max(diccionario_edades.keys())
+## print(edad_minima)
+## print(ultimo_nombre)
+
+
+## Ejercicio 82
+
 
 
 
