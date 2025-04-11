@@ -423,6 +423,72 @@
 
 ## Ejercicio 82
 
+## from random import randint
+
+## aleatorio = randint(1, 100)
+## print(aleatorio)
+
+
+## Ejercicio 83
+
+## from random import *
+
+## aleatorio = random()
+## print(aleatorio)
+
+
+## Ejercicio 84
+
+## from random import *
+## nombres = ['Juan', 'Ana', 'Pedro', 'María', 'Luis', 'Sara', 'Pablo', 'Carmen', 'Jorge', 'Lucía']
+## sorteo = choice(nombres)
+## print(sorteo)
+
+
+## Ejercicio 85
+
+## valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10.5]
+## valores_cuadrado = (valor**2 for valor in valores)
+## print(list(valores_cuadrado))
+
+
+## Ejercicio 86
+
+## valores = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+## valores_pares = (valor for valor in valores if valor % 2 == 0)
+## print(list(valores_pares))
+
+
+## Ejercicio 87
+
+## temperatura_fahrenheit = [32, 212, 275]
+## grados_celsius = ((temperatura - 32) * (5/9) for temperatura in temperatura_fahrenheit)
+## print(list(grados_celsius))
+
+
+## Ejercicio 88
+
+## texto = '# ",:_#,,,,,,:::____##Pyt%on_ _Total,,,,,,::#"'
+
+## resultado = texto.lstrip(',#_:" ').rstrip(',#_:" ').replace("Total", "")
+## print(resultado)
+
+
+
+## Ejercicio 89
+
+## frutas = ["mango", "banana", "cereza", "ciruela", "pomelo"]
+## frutas.insert(3, "naranja")
+## print(frutas)
+
+
+## Ejercicio 90
+
+marcas_tv = ['Samsung', 'LG', 'Sony', 'Panasonic', 'Philips']
+marcas_moviles = ['Samsung', 'Apple', 'Xiaomi', 'Huawei', 'Nokia']
+print(set(marcas_tv).isdisjoint(set(marcas_moviles)))
+
+
 
 
 
