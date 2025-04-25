@@ -484,9 +484,69 @@
 
 ## Ejercicio 90
 
-marcas_tv = ['Samsung', 'LG', 'Sony', 'Panasonic', 'Philips']
-marcas_moviles = ['Samsung', 'Apple', 'Xiaomi', 'Huawei', 'Nokia']
-print(set(marcas_tv).isdisjoint(set(marcas_moviles)))
+## marcas_tv = ['Samsung', 'LG', 'Sony', 'Panasonic', 'Philips']
+## marcas_moviles = ['Samsung', 'Apple', 'Xiaomi', 'Huawei', 'Nokia']
+## print(set(marcas_tv).isdisjoint(set(marcas_moviles)))
+
+
+## Ejercicio 91
+
+## def saludar():
+##     print("Hola!")
+
+
+
+## Ejercicio 92
+## nombre_persona = "Jose"
+## def bienvenida():
+##     print(f"Hola {nombre_persona}, bienvenido al curso de Python")
+
+
+
+## Ejercicio 93
+
+## numero = int(input("Escribe un número: "))
+## def cuadrado(numero):
+##     print(numero**2)
+
+## cuadrado(numero)
+
+
+## Ejercicio 94
+
+## def potencia(num1, num2):
+##     print(num1 ** num2)
+    
+## potencia(2, 4)
+
+
+
+## Ejercicio 95
+
+## dolares = 120
+
+## def dolar_euro(dolares):
+##     euros = dolares * 0.85
+##     print(euros)
+
+## dolar_euro(dolares)
+
+
+## Ejercicio 96
+
+## def invertir(palabra):
+##     palabra =palabra[::-1]
+##     palabra = palabra.upper()
+##     return palabra
+## print(invertir("Hola Mundo"))
+
+
+## Ejercicio 97
+
+
+
+
+
 
 
 
@@ -495,10 +555,10 @@ print(set(marcas_tv).isdisjoint(set(marcas_moviles)))
 ##############################################################################################################
 
 ## Ejercicio Extra
-#nombre = input('Escribe tu nombre:' )
-#apellido = input('Escribe tu apellido:' )
-## edad = int(input('Escribe tu edad:'))
-## if (edad > 100) or (edad < 0):
-##     print("Has puesto una edad incorrecta")
-## else: 
-##     print("Tu edad es correcta")
+nombre = input('Escribe tu nombre:' )
+apellido = input('Escribe tu apellido:' )
+edad = int(input('Escribe tu edad:'))
+if (edad > 100) or (edad < 0):
+    print("Has puesto una edad incorrecta")
+else: 
+    print("Tu edad es incorrecta")
